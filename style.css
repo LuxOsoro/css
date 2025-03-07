@@ -6,6 +6,26 @@
 ul {
   display: none;
 }
+#mypopover ul {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+}
+:popover-open {
+  width: 100px;
+  min-height: 100px;
+  position: absolute;
+  inset: unset;
+  top: 5px;
+  right: 5px;
+  margin: 0;
+  padding: 5px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
